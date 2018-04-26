@@ -1,0 +1,95 @@
+
+.cf-cont .cf-main{
+	padding: 70px 50px;
+}
+.cf-cont .cf-main h3{
+	color: #424a5b;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 42px;
+    font-size: 30px;
+    text-align: left;
+    cursor: pointer;
+}
+.cf-cont .cf-main h3:before{
+	width: 24px;
+	height: 34px;
+	content: '';
+	display: inline-block;
+	background: url(../../images/common/kfbor.jpg) no-repeat center;
+	position: relative;
+	top: 5px;
+	margin-right: 15px;
+}
+.cf-cont .cf-main h3.cf-border:before{
+	background: url(../../images/common/cfbor.jpg) no-repeat center;
+}
+.cf-cont .cf-main h3.px-border:before{
+	background: url(../../images/common/pxbor.jpg) no-repeat center;
+}
+.cf-cont .cf-main h3.ph-border:before{
+	background: url(../../images/common/phbor.jpg) no-repeat center;
+}
+.cf-cont .cf-main h3.jy-border:before{
+	background: url(../../images/common/jybor.jpg) no-repeat center;
+}
+.cf-cont .cf-main h3.zx-border:before{
+	background: url(../../images/common/zxbor.jpg) no-repeat center;
+}
+.cf-cont .cf-main h3.zc-border:before{
+	background: url(../../images/common/zcbor.png) no-repeat center;
+}
+.cf-cont .cf-main p{
+	font-size: 18px;
+	line-height: 30px;
+	color: #424a5b;
+    margin-bottom: 20px;
+}
+.cf-cont .cf-main .kfcolor{
+	color: #23ac38;
+}
+.cf-cont .cf-main .phcolor{
+	color: #fcc900;
+}
+.cf-cont .cf-main .pxcolor{
+	color: #0088dc;
+}
+.cf-cont .cf-main .jycolor{
+	color: #751286;
+}
+.cf-cont .cf-main .zxcolor{
+	color: #0ba29b;
+}
+.cf-cont .cf-main .cfcolor{
+	color: #ce0450;
+}
+.cf-cont .cf-main .zccolor{
+	color:#e50024;
+}
+.cf-cont .cf-main .foodcolor{
+	color:#6bd032;
+}
+.cf-cont .cf-main .yyqiancolor{
+	color:#004a9f;
+}
+.cf-cont .cf-main h4{
+	font-size: 24px;
+	color: #424a5b;
+	text-align: center;
+	margin-top: 10px;
+}
+.cf-cont .cf-main .cf-img{
+	width: 443px;
+	height: 614px;
+	margin: 0 auto;
+	background: url(../../images/caifu/cfimg.jpg) no-repeat;
+}
+/* 分割线 */
+.cf-main .line{
+    display: block;
+    width: 1000px;
+    height: 1px;
+    background: #fcc900;
+    margin: 67px auto;
+}

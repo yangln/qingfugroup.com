@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>青蚨集团 始终相伴</title>
+<!-- build:css static/css/index.css -->
+<link rel="stylesheet" type="text/css" href="css/home/jquery.fullPage.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="shortcut icon" type="image/x-icon" href="images/common/titlogo.png">
+<link rel="stylesheet" href="css/home/home.css">
+<link rel="stylesheet" href="css/common.css">
+<!-- endbuild -->
+<script>
+    function browserRedirect() {
+        var sUserAgent = navigator.userAgent.toLowerCase();
+        var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+        var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+        var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+        var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+        var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+        var bIsAndroid = sUserAgent.match(/android/i) == "android";
+        var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+        var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+        //设备判断
+        if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+            //document.writeln("phone");
+            window.location.href="mobile/html/home.html";
+        }
+    }
+    browserRedirect();
+</script>
+
+<!--[if lt IE 9]> 
+    <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>   
+<![endif]-->
+<style>
+	.page0{ background: #fff; }
+	.page1{ background: #f5f6f9; }
+	.page2{ background: #000; }
+	.page3{ background: #fff; }
+	.section{ overflow: hidden;}
+</style>
+</head>
+<body>
+	<div id="loading">
+		<img src="images/common/loading.gif" alt="">
+	</div>
+	<div class="adBtn">
+		<a class="adTit" href="html/news-page/1102.html">集团公告</a>
+	</div>
+<!--导航-->
+	<div class="wrapper headwrapper" style="display: block;">
+		<div class="header clearfix">
+			<div class="f-fl">
+				<a class="head-logo" href="javaScript:;"></a>
+			</div>
+			<ul class="nav f-fr">
+				<li><a href="/">首页</a></li>
+				<li class="hoverbefore">
+					<a href="javascript:;">关于我们</a>
+					<div class="nav-body">
+						<ul class="nav-main clearfix">
+							<li><a href="html/aboutUS.html">集团简介</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="hovertrue">
+					<a href="javaScript:;">集团板块</a>
+					<div class="nav-body">
+						<ul class="nav-main clearfix">
+							<li><a href="html/zichan.html">青蚨资产</a></li>
+							<li><a href="html/puhui.html">青蚨普惠</a></li>
+							<li><a href="html/jinyi.html">青蚨金翼</a></li>
+							<li><a href="html/kangfu.html">青蚨康复</a></li>
+							<li><a href="html/puxin.html">青蚨普信</a></li>
+							<li><a href="html/food.html">青蚨食品</a></li>
+							<li><a href="html/catering.html">青蚨餐饮</a></li>							
+						</ul>
+					</div>
+				</li>
+				<li class="hovernext">
+					<a href="javaScript:;">集团动态</a>
+					<div class="nav-body">
+						<ul class="nav-main nav-main-center clearfix">
+							<li><a href="html/gonggao.html">重要公告</a></li>
+							<li><a href="html/dongtai.html">集团动态</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="html/duty.html">企业公民</a></li>
+				<li class="nav-last"><a href="html/connectUS.html">联系我们</a></li>
+			</ul>
+		</div>
+	</div>	
+	<div id="fullpage">
+		<div class="section page1" data-anchor="page1">
+			<!--ditu-->
+			<div class="wrapper">
+				<div class="homeTit">青蚨集团生态世界</div>
+				<div class="area">
+					<div class="area0">
+						<img src="images/home/mountain.png" alt="mountain">
+					</div>
+					<div class="area1">
+						<img src="images/home/glass.png" alt="glass">
+					</div>
+					<div class="area2">
+						<img src="images/home/zichan.png" alt="zichan">
+					</div>
+					<div class="area5">
+						<img src="images/home/jinyi.png" alt="jinyi">
+					</div>
+					<div class="area7">
+					</div>
+					<div class="area8">
+						<img src="images/home/puhui.png" alt="puhui">
+					</div>
+					<div class="area9">
+						<img src="images/home/food.png" alt="food">
+					</div>
+					<div class="area11"><img src="images/home/glass2.png" alt="glass"></div>
+					<div class="area12"><img src="images/home/yun2.png" alt="yun"></div>
+					<div class="area13"><img src="images/home/yun1.png" alt="yun"></div>
+				</div>	
+			</div>
+		</div>
+	    <div class="section page2" data-anchor="page2">
+			<div class="vi-wrapper clearfix" id="p2video-box">
+				<div class="vi">
+					<video width="100%" preload="auto" poster="video/vc1.png">
+						<source src="video/2017.mp4" type='video/mp4'/>
+						<p>您的浏览器版本过低，暂不支持视频播放，请使用其他浏览器尝试。</p>
+					</video>
+					<div class="cover cover1">
+						<div class="v-describe">
+							<span id="groupbtn" class="play-btn"></span>
+							<p class="video-tit">青蚨集团视频简介</p>						
+						</div>						
+					</div>
+				</div>
+				<div class="vi vi3">
+					<h3>青蚨集团</h3>
+					<p class="vi-des">青蚨成立于2009年（青蚨小贷），致力于为高净值客户提供资金借贷服务。2010年青蚨资产管理有限公司成立，公司在发展中坚持以合规为基础，不断拓展渠道业务，连续四年创造了每年成功出借10个亿的优秀业绩。2015年互金行业迎来寒冬，为应对市场变化，青蚨开始进行多元化管理，青蚨普惠、青蚨普信等多板块业务开始独立运营。</p>
+				</div>
+				<div class="vi vi3">
+					<h3>青蚨集团</h3>
+					<p class="vi-des">2016年青蚨全生态业务收入接近20亿元，活跃用户超过30万，2017年2月，徐东亚宣布青蚨“蓝色行动”计划，即是基于互联网借贷为更多活跃用户提供高质量衣、食、住、行、游、购、娱等服务，并于同年3月正式于北京启动。<br>青蚨集团一直以来紧跟国家政策，严守法律法规，发展八年来，是首都金融服务商会理事单位、中国互联网协会会员单位、亚洲品牌论坛常务理事单位，并先后荣获中国投资理财领域十大领先品牌、2016年度互联网金融最佳风控奖、2017年中国（行业）领军企业、荣登2017北京品牌百强榜等国家级荣誉奖项。现在青蚨的品牌价值高达近60亿，已经发展成为具有强大竞争力的综合性集团企业。</p>
+				</div>
+				<div class="vi">
+					<video width="100%" preload="auto" poster="video/vc1.png">
+						<source src="video/ad.mp4" type='video/mp4'/>
+						<p>您的浏览器版本过低，暂不支持视频播放，请使用其他浏览器尝试。</p>
+					</video>
+					<div class="cover cover2">
+						<div class="v-describe">
+							<span id="adbtn" class="play-btn"></span>
+							<p class="video-tit">青蚨集团2017年TVC广告片</p>						
+						</div>						
+					</div>				
+				</div>				
+			</div>
+	    </div>
+	    <div class="section page3" data-anchor="page3">
+    		<!-- <h3 class="pg2-tit">青蚨资产管理集团</h3> -->
+			<div class="news clearfix">
+				<div class="new0 f-fl">
+					<a class="new-bg" href="html/aboutUS.html"><img src="images/home/new000.jpg" alt=""></a>
+					<p>青蚨集团</p>
+				</div>
+				<div class="new1  f-fr">
+					<a class="new-bg" href="html/dongtai.html"><img src="images/home/new001.jpg" alt=""></a>
+					<p>青蚨动态</p>
+				</div>
+				<div class="new1 new2  f-fr">
+					<a class="new-bg" href="#page1"><img src="images/home/new002.jpg" alt=""></a>
+					<p>青蚨生态</p>
+				</div>
+				<div class="new3  f-fl">
+					<a class="new-bg" href="#page1"><img src="images/home/new003.jpg" alt=""></a>
+					<p>青蚨品牌</p>
+				</div>
+				<div class="new4  f-fr">
+					<a class="new-bg" href="html/duty.html"><img src="images/home/new004.jpg" alt=""></a>
+					<p>青蚨责任</p>
+				</div>
+			</div>
+			<!-- 底部 -->
+			<div class="footer homefooter">
+				<div class="wrapper">
+					<ul class="foot-nav clearfix">
+						<li><a href="html/connectUS.html">联系我们</a></li>
+						<li style="border-right:0"><a href="html/joinUS.html">加入我们</a></li>
+					</ul>
+					<div class="beian-information">
+						<p>Copyright © 2010-2017 青蚨集团 版权所有</p> 
+						<a href="http://www.miitbeian.gov.cn/">京ICP备17012986号</a> 
+						<a class="jba" href="http://www.beian.gov.cn/portal/registerSystemInfo">
+							<img src="images/common/baicon.png" alt="">
+							京公网安备 11010502034218号
+						</a>
+					</div>
+					<p class="phone">客服电话<br/>4008-2525-66</p>
+				</div>
+			</div>
+			<ul id="menu">
+				<li data-menuanchor="page1">
+					<span class="side-tit">青蚨生态</span>
+					<a class="a2" href="#page1" title=""></a>
+				</li>
+				<li data-menuanchor="page2">
+					<span class="side-tit">青蚨宣传片</span>
+					<a class="a3" href="#page2" title=""></a>
+				</li>
+				<li data-menuanchor="page3">
+					<span class="side-tit">青蚨动态</span>
+					<a class="a3" href="#page3" title=""></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+<!-- build:js static/js/index.js -->
+<script type="text/javascript" src="js/jQuery-1.11-min.js"></script>
+<script type="text/javascript" src="js/home/jquery.fullPage.min.js"></script>
+<script type="text/javascript" src="js/home/jquery-ui.js"></script>
+<script type="text/javascript" src="js/home/home.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/load.js"></script>
+<!-- endbuild -->	
+</body>
+</html>

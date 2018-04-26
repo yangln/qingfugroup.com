@@ -1,0 +1,17 @@
+document.writeln("			<div class=\'footer\'>");
+document.writeln("				<div class=\'wrapper\'>");
+document.writeln("					<ul class=\'foot-nav clearfix\'>");
+document.writeln("						<li><a href=\'connectUS.html\'>联系我们</a></li>");
+document.writeln("						<li style=\'border-right:0\'><a href=\'joinUS.html\'>加入我们</a></li>");
+document.writeln("					</ul>");
+document.writeln("					<div class=\'beian-information\'>");
+document.writeln("						<p>Copyright © 2010-2017 青蚨集团 版权所有</p> ");
+document.writeln("						<a href=\'http://www.miitbeian.gov.cn/\'>京ICP备17012986号</a> ");
+document.writeln("						<a class=\'jba\' href=\'http://www.beian.gov.cn/portal/registerSystemInfo\'>");
+document.writeln("							<img src=\'../images/common/baicon.png\' alt=\'\'>");
+document.writeln("							京公网安备 11010502034218号");
+document.writeln("						</a>");
+document.writeln("					</div>");
+document.writeln("					<p class=\'phone\'>客服电话<br/>4008-2525-66</p>");
+document.writeln("				</div>");
+document.writeln("			</div>");

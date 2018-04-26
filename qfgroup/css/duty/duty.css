@@ -1,0 +1,157 @@
+.duty-content{
+	padding-top: 70px;
+}
+.duty-content>div{
+	width: 100%;
+	height: 701px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin-bottom: 30px;
+	position: relative;
+}
+.duty-tit{
+	font-size: 32px;
+	line-height: 32px;
+    text-align: center;
+    margin-bottom: 14px;
+    color: #fff;
+}
+.duty-txt{
+	font-size: 53px;
+    line-height: 74px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 9px;
+}
+.duty-btn{
+	font-size: 21px;
+    line-height: 21px;
+    text-align: center;
+    color: #23ac39;
+    text-decoration: underline;
+}
+.culture{
+	background-image: url(../../images/develop/1_01.jpg);
+}
+.culture .duty-txtbox{
+	width: 636px;
+	height: 340px;
+	position: absolute;
+	top: 200px;
+	right: 158px;
+}
+.children{
+	background-image: url(../../images/develop/1_03.jpg);
+}
+.children .duty-txtbox{
+	width: 500px;
+	height: 470px;
+	position: absolute;
+	left: 154px;
+	top: 214px;
+}
+.students{
+	background-image: url(../../images/develop/1_05.jpg);
+}
+.students .duty-txtbox{
+	width: 360px;
+	height: 280px;
+	position: absolute;
+	left: 50%;
+	margin-left: -180px;
+	top: 60px;
+}
+.students .duty-tit{
+	color: #000;
+}
+.students .duty-txt{
+	color: #000;
+}
+.duty-content .green{
+	background-image: url(../../images/develop/1_02.jpg);
+	margin-bottom: 0;
+}
+.green .duty-txtbox{
+	width: 380px;
+	height: 300px;
+	left: 50%;
+	margin-left: -190px;
+	top: 30px;
+}
+.love{
+	background-image: url(../../images/develop/1_08.jpg);
+}
+.love .duty-txtbox{
+	width: 534px;
+	height: 274px;
+	right: 280px;
+	top: 166px;
+	margin-left: 0;
+}
+.duty-content .self{
+	background-image: url(../../images/develop/1_10.jpg);
+	margin-bottom: 0;
+}
+.self .duty-txtbox{
+	width: 690px;
+	height: 393px;
+	left: 157px;
+	top: 59px;
+	margin-left: 0;
+}
+.green img{
+	position: absolute;
+	width: 328px;
+	height: 330px;
+	left: 50%;
+	margin-left: -164px;
+	top: 295px;
+	animation: 5s torotate linear infinite;	
+	-webkit-animation: 5s torotate linear infinite;
+	-moz-animation: 5s torotate linear infinite;
+	-ms-animation: 5s torotate linear infinite;
+}
+@keyframes torotate{
+	0%{
+		transform: rotate(0deg);
+	}
+	50%{
+		transform: rotate(180deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+@-webkit-keyframes torotate{
+	0%{
+		-webkit-transform: rotate(0deg);
+	}
+	50%{
+		-webkit-transform: rotate(180deg);
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+	}
+}
+@-moz-keyframes torotate{
+	0%{
+		-moz-transform: rotate(0deg);
+	}
+	50%{
+		-moz-transform: rotate(180deg);
+	}
+	100%{
+		-moz-transform: rotate(360deg);
+	}
+}
+@-ms-keyframes torotate{
+	0%{
+		-ms-transform: rotate(0deg);
+	}
+	50%{
+		-ms-transform: rotate(180deg);
+	}
+	100%{
+		-ms-transform: rotate(360deg);
+	}
+}

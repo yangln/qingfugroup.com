@@ -1,0 +1,265 @@
+﻿/* 公共样式表 */
+
+.wrapper{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.headwrapper{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 998;
+	background: #fff;
+	border-bottom: #e7e5e2 solid 1px;
+}
+.last-b0{
+    border: 0;
+}
+/* banner-版块级 */
+.banner500{
+	width: 100%;
+	height: 500px;
+	background: #fff no-repeat center;
+}
+/* banner-实景图 */
+.banner700{
+	width: 100%;
+	height: 700px;
+	background: #fff no-repeat center;
+}
+/* 二级页主体背景 */
+.cf-cont{
+	background:  #f9fafc;
+	padding:0 0 70px 0;
+}
+.wrapper1200{
+	width: 1100px;
+	margin: 0 auto;
+	position: relative;
+	padding-bottom:60px;
+	background: #fff;
+	-webkit-box-shadow:0px 4px 6px #eef0f5;
+	-moz-box-shadow:0px 4px 6px #eef0f5;
+	-ms-box-shadow:0px 4px 6px #eef0f5;
+	box-shadow:0px 4px 6px #eef0f5;
+}
+.pt70{
+	padding: 112px 0;
+}
+/*  头部导航 */
+.head-nav{
+	width: 100%;
+	background: #fff;
+}
+.fp-tableCell {
+	vertical-align: top;
+}
+.header{
+	width: 1100px;
+	height: 70px;
+	margin: 0 auto;
+}
+.logo_wrapper{
+	width: 100%;
+	height: 30px;
+	background: #efefef;
+	padding-top: 12px;
+}
+.header_top{
+	width: 	1000px;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.header_top>a{
+	border-right: #93908f 1px solid;
+	padding: 0 24px;
+	display: inline-block;
+}
+.logo:nth-child(1){
+	background: url(../images/common/logo_03.png) no-repeat center;
+	width: 59px;
+	height: 22px;
+}
+.logo:nth-child(2){
+	background: url(../images/common/logo_05.png) no-repeat center; 
+	width: 97px;
+	height: 22px;
+}
+.logo:nth-child(3){
+	background: url(../images/common/logo_07.png) no-repeat center;
+	width: 51px;
+	height: 22px;
+}
+.logo:nth-child(4){
+	background: url(../images/common/logo_09.png) no-repeat center; 
+	width: 51px;
+	height: 22px;
+}
+.head-logo{
+	width: 100px;
+	height: 70px;
+	background: url(../images/common/logo.png) no-repeat center 12px;
+}
+a.zixun{
+	background: url(../images/common/zixunlogo.png) no-repeat center; 
+	width: 60px;
+	height: 22px;
+	border-right: 0;
+}
+.nav{
+	width: 720px;
+	height: 70px;
+}
+.nav>li{
+	float: left;
+	height: 70px;
+	font-size: 18px;
+	line-height: 70px;
+	text-align: center;
+	cursor: pointer;
+	position: relative;
+	padding-left: 22px;
+	padding-right: 22px;
+}
+.nav>li>a{
+	color: #272727;
+	height: 68px;
+	display: inline-block;
+}
+.nav>li.active>a{
+	border-bottom: solid 2px #e60012;
+}
+/*.nav li.hoverbefore{
+	width: 76px;
+	padding-left: 27px;
+}
+.nav li.hovertrue{
+	padding-left: 27px;
+	padding-right: 27px;
+}
+.nav li.hovernext{
+	width: 76px;
+	padding-right: 27px;
+}
+.nav-body{
+	width: 100%;
+	height: 60px;
+	background: #eeeeee;
+	position: absolute;
+	left: 0;
+	top: 70px;
+	display: none;
+	z-index: 999;
+}*/
+.nav-body{
+	display: none;
+}
+.nav-body .nav-main{
+	width: 120px;
+	position: absolute;
+	left: 0;
+	top: 70px;
+	padding: 10px 0;
+    border-top: 4px solid #000;
+    background-color: #000;
+    opacity: .8;
+}
+.nav-body .nav-main:before{
+	background-color: #000;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    top: -7px;
+    left: 47%;
+    z-index: 9;
+    content: "";
+    border: 0;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+/*.nav-body .nav-main-center{
+	right: 582px;
+}*/
+.nav-body .nav-main li{
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	line-height: 36px;
+}
+.nav-body .nav-main li:hover{
+	background: #272727;
+}
+.nav-body .nav-main li a{
+	font-size: 12px;
+	color: #fff;
+}
+/* .nav-body .nav-main li a:hover{
+	color: #e60012;
+} */
+/* *******头部导航结束******** */
+/* 底部 */
+.footer{
+	width: 100%;
+	height: 60px;
+	background: #000;
+	text-align: center;
+	padding-top: 20px;
+}
+.homefooter{
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+}
+.foot-nav{
+	display: inline-block;
+}
+.foot-nav li{
+	width: 120px;
+	height: 18px;
+	border-right: 1px solid #919191;
+	float: left;
+	text-align: center;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.foot-nav li a{
+	font-size: 14px;
+	color: #919191;
+	line-height: 18px;
+}
+.foot-nav li a:hover{
+	color: #fff;
+}
+.footer .wrapper{
+	position: relative;
+}
+.beian-information{
+	text-align: center;
+
+}
+.beian-information p,.beian-information a{
+	display: inline-block;
+	font-size: 14px;
+	color:  #919191;
+	line-height: 20px;	
+}
+.footer .wrapper .phone{
+	position: absolute;
+	font-size: 14px;
+	line-height: 24px;
+	right: 0;
+	bottom: 6px;
+	color: #919191;
+}
+.jba img{
+	width: 20px;
+	height: 20px;
+	background: url(../images/common/baicon.png) no-repeat center;
+}
+/* ************** 底部结束 ************ */

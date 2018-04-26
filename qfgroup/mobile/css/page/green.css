@@ -1,0 +1,44 @@
+.benefit-main h3{
+    color: #424a5b;
+    width: 100%;
+    line-height: 0.533333rem;
+    margin-bottom: 0.4rem;
+    font-size: 16px;
+    text-align: left;
+    cursor: pointer;
+}
+.benefit-main h3:before{
+    width: 0.32rem;
+    height: 0.493333rem;
+    content: '';
+    display: inline-block;
+    background: url(../../images/icon/zcbor.jpg) no-repeat center;
+    background-size: 100%;
+    position: relative;
+    top: 0.066667rem;
+    margin-right: 0.2rem;
+}
+.benefit-content-box{
+    padding: 0.5rem;
+}
+.benefit-content-box div{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+.benefit-content-box div a{
+    display: block;
+}
+
+.benefit-content-box div img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: .3rem;
+}
+div.gy-first img{
+    margin-right: 0;
+}
+.benefit-content-box span.gy-txt{
+    font-size: 13px;
+    line-height: .6rem;
+    padding-top: .4rem;
+}

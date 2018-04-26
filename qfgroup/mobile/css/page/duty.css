@@ -1,0 +1,155 @@
+.duty-content{
+	padding-top: 48px;
+}
+.duty-content>div{
+	width: 10.0rem;
+	height: 5.333333rem;
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin-bottom: 0.28rem;
+	position: relative;
+	background-size: 100%;
+}
+.duty-tit{
+	font-size: 12px;
+	line-height: 12px;
+    text-align: center;
+    margin-bottom: 0.2rem;
+    color: #fff;
+}
+.duty-txt{
+	font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 9px;
+}
+.duty-btn{
+	font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+    color: #23ac39;
+    text-decoration: underline;
+    display: block;
+}
+.culture{
+	background-image: url(../../images/benefit/gy_01.png);
+}
+.culture .duty-txtbox{
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	top: 50px;
+	right: 5px;
+}
+.children{
+	background-image: url(../../images/benefit/gy_03.png);
+}
+.children .duty-txtbox{
+	width: 100px;
+	height: 108px;
+	position: absolute;
+	left: 44px;
+	top: 52px;
+}
+.students{
+	background-image: url(../../images/benefit/gy_05.png);
+}
+.students .duty-txtbox{
+	width: 134px;
+	height: 101px;
+	position: absolute;
+	left: 50%;
+	margin-left: -67px;
+	top: 20px;
+}
+.students .duty-tit,.green .duty-txtbox{
+	color: #000;
+}
+.students .duty-txt{
+	color: #000;
+}
+.duty-content .green{
+	background-image: url(../../images/benefit/gy_07.png);
+	margin-bottom: 0;
+}
+.green .duty-txtbox{
+	top: 10px;
+}
+.love{
+	background-image: url(../../images/benefit/gy_08.png);
+}
+.love .duty-txtbox{
+	width: 123px;
+	height: 93px;
+	right: 35px;
+	top: 35px;
+	margin-left: 0;
+}
+.duty-content .self{
+	background-image: url(../../images/benefit/gy_10.png);
+	margin-bottom: 0;
+}
+.self .duty-txtbox{
+	width: 167px;
+	height: 114px;
+	left: 15px;
+	top: 25px;
+	margin-left: 0;
+}
+.green img{
+	position: absolute;
+	width: 2rem;
+	height: 2rem;
+	left: 50%;
+	margin-left: -1rem;
+	top: 2.8rem;
+	animation: 5s torotate linear infinite;	
+	-webkit-animation: 5s torotate linear infinite;
+	-moz-animation: 5s torotate linear infinite;
+	-ms-animation: 5s torotate linear infinite;
+}
+@keyframes torotate{
+	0%{
+		transform: rotate(0deg);
+	}
+	50%{
+		transform: rotate(180deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+@-webkit-keyframes torotate{
+	0%{
+		-webkit-transform: rotate(0deg);
+	}
+	50%{
+		-webkit-transform: rotate(180deg);
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+	}
+}
+@-moz-keyframes torotate{
+	0%{
+		-moz-transform: rotate(0deg);
+	}
+	50%{
+		-moz-transform: rotate(180deg);
+	}
+	100%{
+		-moz-transform: rotate(360deg);
+	}
+}
+@-ms-keyframes torotate{
+	0%{
+		-ms-transform: rotate(0deg);
+	}
+	50%{
+		-ms-transform: rotate(180deg);
+	}
+	100%{
+		-ms-transform: rotate(360deg);
+	}
+}

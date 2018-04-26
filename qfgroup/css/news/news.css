@@ -1,0 +1,139 @@
+.dongtai-banner{
+    width: 100%;
+    height: 700px;
+    background: url(../../images/banner/dongtai.jpg) no-repeat center;
+}
+.cf-cont .cf-main{
+    padding: 70px 50px;
+}
+.cf-cont .cf-main h3{
+    color: #424a5b;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 42px;
+    font-size: 30px;
+    text-align: left;
+    cursor: pointer;
+}
+.cf-cont .cf-main h3:before{
+    width: 24px;
+    height: 34px;
+    content: '';
+    display: inline-block;
+    background: url(../../images/common/zcbor.jpg) no-repeat center;
+    position: relative;
+    top: 5px;
+    margin-right: 15px;
+}
+.cf-cont .cf-main p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #424a5b;
+    margin-bottom: 20px;
+}
+.gg-newslist ul li a{
+	width: 650px;
+	color: #666666;
+	height: 40px;
+	line-height: 40px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-bottom: 1px solid #fff;
+}
+.gg-newslist ul li a:visited{
+    color: #22ac38;
+}
+.gg-newslist ul li a:hover{
+	color: #0388cb;
+}
+
+.gg-newslist ul{
+    display: none;
+}
+.gg-newslist ul.current{
+    display: block;
+}
+.gg-newslist .pages {
+    margin: 40px auto 0 auto;
+    text-align: center;
+}
+.gg-newslist .pages a{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0 1px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    background: #dddddd;
+    color: #666666;
+    font-family: \u5b8b\u4f53,Arial;
+    font-size: 14px;
+    cursor: pointer;
+}
+.gg-newslist .pages a:hover{
+	background: #145eac;
+    color: #fff;
+}
+.gg-newslist .pages a.current{
+	background: #145eac;
+    color: #fff;
+}
+.goback-btn{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    border-top: solid 2px #155eab;
+    text-align: right;
+}
+.goback-btn a{
+    color: #4c8ee0;
+    font-size: 18px;
+    line-height: 100px;
+    display: inline-block;
+}
+.gg-txt-body h1.title {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+.gg-txt-body .time {
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #666666;
+}
+/* 新闻内文部分 */
+.gg-txt-box .inner-main{
+    padding: 0 50px 60px;
+}
+.gg-txt-box .inner-main h2{
+    font-size: 22px;
+    line-height: 30px;
+    color: #424a5b;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.gg-txt-box .inner-main p{
+    font-size: 16px;
+    line-height: 22px;
+    color: #424a5b;
+}
+.gg-txt-box .inner-main .time{
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.gg-txt-box .inner-main img{
+    margin-bottom: 20px;
+}
+.pic-box{
+    text-align: center;
+}
+.inner-main .pic-box>p{
+    font-size: 12px;
+}
+.gg-txt-box .inner-main p.p-bold{
+    font-weight: bold;
+}

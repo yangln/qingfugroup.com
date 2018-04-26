@@ -1,0 +1,37 @@
+.data-box{
+	width: 100%;
+	padding-bottom:.5rem ;
+	border-bottom: solid 1px #ccc;
+}
+.inner-main h2{
+	line-height: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.inner-main img{
+	width: 50%;
+	display: inline-block;
+}
+.data-box .inner-main p{
+	font-size: 13px;
+}
+.data-box .inner-main p:nth-child(1){
+	font-size: 15px;
+	font-weight: bold;
+}
+.back-btn{
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	padding-top: 1rem;
+	margin-bottom: 1rem;
+}
+.p-bold{
+	font-weight: bold;
+}
+.pic-box{
+	text-align: center;
+}

@@ -1,0 +1,93 @@
+.cf-cont .cf-main{
+	padding: 70px 50px;
+}
+.cf-cont .cf-main h3{
+	color: #424a5b;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 42px;
+    font-size: 30px;
+    text-align: left;
+    cursor: pointer;
+}
+.cf-cont .cf-main h3:before{
+	width: 24px;
+	height: 34px;
+	content: '';
+	display: inline-block;
+	background: url(../../images/common/kfbor.jpg) no-repeat center;
+	position: relative;
+	top: 5px;
+	margin-right: 15px;
+}
+.job-box .job-list .job-list-tit{
+	width: 100%;
+	height: 50px;
+	background: #f7f7f7;
+	margin-bottom: 50px;
+	cursor: pointer;
+}
+.job-box .job-list .job-list-tit span{
+	float: left;
+	width: 33%;
+	height: 50px;
+	font-size: 16px;
+	color: #272727;
+	text-align: center;
+	line-height: 50px;
+
+}
+.job-box .job-list .job-list-main{
+	padding-left: 55px;
+	margin-bottom: 50px;
+	display: none;
+}
+.job-box .job-list .job-list-main .font16{
+	font-size: 16px;
+	color: #272727;	
+}
+.job-box .job-list .job-list-main .font14{
+	font-size: 14px;
+	color: #272727;	
+}
+.join-banner{
+	width: 100%;
+	height: 700px;
+	background: url(../../images/banner/jianjie.jpg) no-repeat center;
+    margin-bottom: 60px;
+}
+label{
+	font-size: 16px;
+	margin-right: 20px;
+}
+select{
+	width: 30%;
+    height: 42px;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 16px;
+}
+.citycont{
+	width: 890px;
+	min-height: 125px;
+	background-color: #f7f7f7;
+    padding: 20px 55px;
+    margin-top: 20px;
+}
+.citycont ul li{
+	display: none;
+}
+.citycont ul li h2{
+	font-size: 18px;
+	color: #333;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.citycont ul li p{
+	font-size: 16px;
+	color: #333;
+}
+.citycont ul li.cur{
+	display: block;
+}

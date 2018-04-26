@@ -1,0 +1,767 @@
+﻿.wrapper{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+img{
+	vertical-align: top;
+}
+.section{
+	overflow: hidden;
+}
+/* loading */
+#loading{
+	position: absolute;
+	z-index: 999;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: #fff;
+}
+#loading img{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -40px;
+	margin-top: -50px;
+	-webkit-animation: loadMove 1000ms linear both;
+	-moz-animation: loadMove 1000ms linear both;
+	-ms-animation: loadMove 1000ms linear both;
+	animation: loadMove 1000ms linear both;
+}
+img{
+	vertical-align: top;
+}
+@-webkit-keyframes loadMove{
+	0% {
+		-webkit-transform:translateX(-200px);
+	}
+	100% {
+		-webkit-transform:translateX(0);
+	}
+}
+@-moz-keyframes loadMove{
+	0% {
+		-moz-transform:translateX(-200px);
+	}
+	100% {
+		-moz-transform:translateX(0);
+	}
+}
+@-ms-keyframes loadMove{
+	0% {
+		-ms-transform:translateX(-200px);
+	}
+	100% {
+		-ms-transform:translateX(0);
+	}
+}
+@keyframes loadMove{
+	0% {
+		transform:translateX(-200px);
+	}
+	100% {
+		transform:translateX(0);
+	}
+}
+/* 侧边公告按钮 */
+.adBtn{
+	position: fixed;
+	left: 0px;
+	top: 240px;
+	z-index: 998;
+}
+.adBtn a.adTit{
+	position: relative;
+	display: block;
+	padding: 0 8px;
+    height: 30px;
+    font-size: 18px;
+	text-align: center;
+	line-height: 30px;
+	background: #239ae6;
+	color: #fff;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	left: 20px;
+	cursor: pointer;
+	-webkit-transition: width 1s ease;
+	-ms-transition: width 1s ease;
+	-moz-transition: width 1s ease;
+	transition: width 1s ease;
+}
+.adBtn a.fs14{
+	font-size: 14px;
+}
+.adBtn a.adTit:before{
+	display: block;
+	content: '';
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-right: 15px solid #239ae6;
+	position: absolute; 
+	left: -15px; 
+	top: 0;
+}
+/* 侧边导航 */
+#side {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    width: 300px;
+    height: 100%;
+}
+#menu {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    width: 100px;
+    margin-top: -170px;
+    padding: 0;
+    list-style-type: none;
+}
+#menu li{
+	float: left;
+	width:100px;
+}
+#menu li a{
+	float: right;
+}
+#menu li span.side-tit{
+	float: left;
+	display: none;	
+	line-height: 68px;
+	font-size: 12px;
+	color: #239ae6;
+}
+#menu a:hover, #menu .active a {
+    margin: 14px 0;
+    border: 6px solid #fff;
+    box-shadow: 1px 1px 3px 1px #b4d7ed;
+    border-radius: 20px;
+    background-color: #239ae6;
+}
+#menu a {
+    display: block;
+    width: 28px;
+    height: 28px;
+    margin: 20px 6px;
+    border-radius: 14px;
+    text-indent: -9999px;
+    overflow: hidden;
+    background-color: #a0afb9;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+/********************************************* 第一页内容 **********************************************/
+img{
+	border: none;
+}
+.homeTit{
+	color: #424a5b;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 42px;
+    font-size: 30px;
+    text-align: left; 
+    position: absolute;
+ 	left: 0px;
+    top: 132px;
+    z-index: 222;
+}
+.homeTit:before{
+	width: 24px;
+	height: 34px;
+	content: '';
+	display: inline-block;
+	background: url(../../images/common/zcbor.png) no-repeat center;
+	position: relative;
+	top: 5px;
+	margin-right: 15px;
+}
+.page1 .area{
+	width: 740px;
+	height: 600px;
+	position: absolute;
+	top: 90px;
+	left: 50%;
+	margin-left: -380px;
+}
+@media only screen and (min-width: 1611px){
+	.page1 .area{
+	    top: 240px;
+	}
+}
+@media only screen and (max-width: 1610px) and (min-width: 1367px){
+	.page1 .area {
+	    top: 140px;
+	}
+}
+
+/* 青蚨生态 */
+.area div{
+	position: absolute;
+}
+.area div .pointer{
+	position: absolute;
+	display: none;
+	z-index: 999;
+}
+.area .area0{
+    left: -343px;
+    top: -148px;
+}
+.area .area1{
+	right: 26px;
+    bottom: 60px;;
+	z-index: 1;
+}
+.area .area2{
+    right: 0px;
+    top: 74px;
+	z-index: 2;
+}
+.area .area3{
+	left: 189px;
+	top: 2px;
+	z-index: 3;
+	cursor: pointer;
+}
+.area .area4{
+	left: 186px;
+	top: 85px;
+	z-index: 4;
+	cursor: pointer;
+}
+.area .area5{
+	right: 138px;
+	top: 30px;
+	z-index: 5;
+	cursor: pointer;
+}
+.area .area6{
+    right: 30px;
+    top: 104px;
+	z-index: 6;
+	cursor: pointer;
+}
+.area .area7{
+	left: 291px;
+    bottom: 184px;
+    z-index: 8;
+    cursor: pointer;
+}
+.area .area8{
+    left: 127px;
+    bottom: 182px;
+    z-index: 6;
+}
+.area .area9{
+	right: 128px;
+    bottom: -8px;
+    z-index: 7;
+    cursor: pointer;
+}
+.area .area10{
+    left: 1px;
+    top: 152px;
+    z-index: 5;
+    cursor: pointer;
+}
+.area .area11{
+    right: 164px;
+    top: 294px;
+    z-index: 4;	
+}
+.area .area12 {
+    left: 132px;
+    top: 80px;
+    z-index: 4;
+}
+.area .area13 {
+    left: -30px;
+    top: 130px;
+    z-index: 2;	
+}
+.area .area14 {
+    left: 210px;
+    top: 50px;
+    z-index: 2;
+}
+.area .area15 {
+    left: 110px;
+    top: -36px;
+    z-index: 2;
+}
+.area .area16 {
+    left: 410px;
+    top: -75px;
+    z-index: 2;
+}
+.area .area17 {
+    right: -25px;
+    top: 55px;
+    z-index: 2;
+}
+.cy_pointer{
+	top: -53px;
+	left: 32px;
+}
+.ys_pointer{
+    top: -35px;
+    left: -113px;
+}
+.gy_pointer{
+    top: 4px;
+    left: 129px;
+}
+.jk_pointer{
+    top: 123px;
+    left: 192px;
+}
+.jr_pointer{
+    top: -245px;
+    left: 87px;	
+}
+.sq_pointer{
+	top: 191px;
+    left: 255px;	
+}
+.jy_pointer{
+    top: 134px;
+    left: -107px;
+}
+/* 首屏动画下落 */
+.active .area2{
+	-webkit-animation: bounceInDown 1.6s;
+	-moz-animation: bounceInDown 1.6s;
+	-ms-animation: bounceInDown 1.6s;
+	animation: bounceInDown 1.6s;
+} 
+.active .area3{
+	-webkit-animation: bounceInDown 1.6s;
+	-moz-animation: bounceInDown 1.6s;
+	-ms-animation: bounceInDown 1.6s;
+	animation: bounceInDown 1.6s;
+}
+.active .area4{
+	-webkit-animation: bounceInDown 1.6s;
+	-moz-animation: bounceInDown 1.6s;
+	-ms-animation: bounceInDown 1.6s;
+	animation: bounceInDown 1.6s;
+}
+.active .area5{
+	-webkit-animation: bounceInDown 1.8s;
+	-moz-animation: bounceInDown 1.8s;
+	-ms-animation: bounceInDown 1.8s;
+	animation: bounceInDown 1.8s;
+}
+.active .area6{
+	-webkit-animation: bounceInDown 2s;
+	-moz-animation: bounceInDown 2s;
+	-ms-animation: bounceInDown 2s;
+	animation: bounceInDown 2s;
+}
+.active .area7{
+	-webkit-animation: bounceInDown 1.4s;
+	-moz-animation: bounceInDown 1.4s;
+	-ms-animation: bounceInDown 1.4s;
+	animation: bounceInDown 1.4s;
+}
+.active .area8{
+	-webkit-animation: bounceInDown 2s;
+	-moz-animation: bounceInDown 2s;
+	-ms-animation: bounceInDown 2s;
+	animation: bounceInDown 2s;
+}
+.active .area9{
+	-webkit-animation: bounceInDown 1.8s;
+	-moz-animation: bounceInDown 1.8s;
+	-ms-animation: bounceInDown 1.8s;
+	animation: bounceInDown 1.8s;
+}
+.active .area10{
+	-webkit-animation: bounceInDown 1.2s;
+	-moz-animation: bounceInDown 1.2s;
+	-ms-animation: bounceInDown 1.2s;
+	animation: bounceInDown 1.2s;
+}
+.active .area11{
+	-webkit-animation: bounceInDown 2s;
+	-moz-animation: bounceInDown 2s;
+	-ms-animation: bounceInDown 2s;
+	animation: bounceInDown 2s;
+}
+.active .area12{
+	-webkit-animation: bounceInDown 2s;
+	-moz-animation: bounceInDown 2s;
+	-ms-animation: bounceInDown 2s;
+	animation: bounceInDown 2s;
+}
+.area13{
+	-webkit-animation: cloudMove 4s infinite ease-out;
+	-moz-animation: cloudMove 4s infinite ease-out;
+	-ms-animation: cloudMove 4s infinite ease-out;
+	animation: cloudMove 4s infinite ease-out;
+}
+.area14{
+	-webkit-animation: cloudMove 4s infinite ease-out;
+	-moz-animation: cloudMove 4s infinite ease-out;
+	-ms-animation: cloudMove 4s infinite ease-out;
+	animation: cloudMove 4s infinite ease-out;
+}
+.area15{
+	-webkit-animation: cloudMove 4s infinite ease-out;
+	-moz-animation: cloudMove 4s infinite ease-out;
+	-ms-animation: cloudMove 4s infinite ease-out;
+	animation: cloudMove 4s infinite ease-out;
+}
+.area16{
+	-webkit-animation: cloudMove 4s infinite ease-out;
+	-moz-animation: cloudMove 4s infinite ease-out;
+	-ms-animation: cloudMove 4s infinite ease-out;
+	animation: cloudMove 4s infinite ease-out;
+}
+.area17{
+	-webkit-animation: cloudMove 4s infinite ease-out;
+	-moz-animation: cloudMove 4s infinite ease-out;
+	-ms-animation: cloudMove 4s infinite ease-out;
+	animation: cloudMove 4s infinite ease-out;
+}
+/* 公司版块 上部掉落*/
+@-webkit-keyframes bounceInDown {
+	0% {
+		-webkit-transform:translateY(-2000px);
+	}
+	80% {
+		-webkit-transform:translateY(-10px);
+	}
+	100% {
+		-webkit-transform:translateY(0);
+	}
+}
+@-moz-keyframes bounceInDown {
+	0% {
+		-moz-transform:translateY(-2000px);
+	}
+	80% {
+		-moz-transform:translateY(-10px);
+	}
+	100% {
+		-moz-transform:translateY(0);
+	}
+}
+@-ms-keyframes bounceInDown {
+	0% {
+		-ms-transform:translateY(-2000px);
+	}
+	80% {
+		-ms-transform:translateY(-10px);
+	}
+	100% {
+		-ms-transform:translateY(0);
+	}
+}
+@keyframes bounceInDown {
+	0% {
+		transform:translateY(-2000px);
+	}
+	80% {
+		transform:translateY(-10px);
+	}
+	100% {
+		transform:translateY(0);
+	}
+}
+/* 云move */
+@-webkit-keyframes cloudMove{
+	0% {
+	    -webkit-transform: translateX(-40px);
+	}
+	50% {
+	    -webkit-transform: translateX(40px);
+	}
+	100% {
+	    -webkit-transform: translateX(-40px);
+	}
+}
+@-moz-keyframes cloudMove{
+	0% {
+	    -moz-transform: translateX(-40px);
+	}
+	50% {
+	    -moz-transform: translateX(40px);
+	}
+	100% {
+	    -moz-transform: translateX(-40px);
+	}
+}
+@-ms-keyframes cloudMove{
+	0% {
+	    -ms-transform: translateX(-40px);
+	}
+	50% {
+	    -ms-transform: translateX(40px);
+	}
+	100% {
+	    -ms-transform: translateX(-40px);
+	}
+}
+@keyframes cloudMove{
+	0% {
+	    transform: translateX(-40px);
+	}
+	50% {
+	    transform: translateX(40px);
+	}
+	100% {
+	    transform: translateX(-40px);
+	}
+}
+/* 上下浮动  */
+@keyframes shake{
+	0%,100%{
+		transform: translateY(0);
+	}
+	10%,30%,50%,70%,90%{
+		transform: translateY(-4px);
+	}
+	20%,40%,60%,80%{
+		transform: translateY(4px);
+	}
+}
+@keyframes pos5{
+    0%{ bottom: 2000px;} 
+    100%{ bottom: 0; }
+}
+/* ******************************************第一页结束 ***********************************************
+/* ******************************************第二页开始 ************************************************/
+.vi-wrapper{
+	width: 100%;
+	height: 100%;
+}
+.vi{
+	width: 50%;
+	height: 50%;
+	float: left;
+	background: #101010;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+}
+.vi3{
+	background: #00a0e9;
+}
+.vi3 h3{
+	font-size: 24px;
+    margin: 60px 0 30px;
+    padding: 0 40px;
+    font-weight: 600;
+    color: #fff;
+}
+@-webkit-keyframes fadeIn{
+	0%{
+		-webkit-opacity: 0;
+	}
+	100%{
+		-webkit-opacity: 1;
+	}
+}
+@-moz-keyframes fadeIn{
+	0%{
+		-moz-opacity: 0;
+	}
+	100%{
+		-moz-opacity: 1;
+	}
+}
+@-ms-keyframes fadeIn{
+	0%{
+		-ms-opacity: 0;
+	}
+	100%{
+		-ms-opacity: 1;
+	}
+}
+@keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.vi3 p{
+	padding: 0 40px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #fff;
+}
+/* .page2.active p.vi-des{
+	-webkit-animation: fadeinB 1.6s;
+	-moz-animation: fadeinB 1.6s;
+	-ms-animation: fadeinB 1.6s;
+	animation: fadeinB 1.6s;
+} */
+video{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+.cover{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.cover1{
+	background: url(../../video/vc1.png) no-repeat center;
+	background-size: cover;	
+}
+.cover2{
+	background: url(../../video/vc2.png) no-repeat center;
+	background-size: cover;	
+}
+.cover3{
+	background: url(../../video/vc3.png) no-repeat center;
+	background-size: cover;	
+}
+.v-describe{
+	position: absolute;
+    z-index: 200;
+    bottom: 70px;
+    left: 44px; 
+}
+.play-btn{
+	display: inline-block;
+	content: '';
+	width: 40px;
+	height: 40px;
+	background: url(../../images/home/play-btn.png) no-repeat center;
+	background-size: 100%;
+	cursor: pointer;
+	margin-right: 20px;
+}
+.video-tit{
+	color: #fff;
+	font-size: 16px;
+	height: 40px;
+    line-height: 40px;	
+}
+.page2.active  .formore{
+	-webkit-animation: fadeinB 1.6s;-moz-animation: fadeinB 1.6s;-ms-animation: fadeinB 1.6s;animation: fadeinB 1.6s;
+}
+.page2.active  .play-button{
+	-webkit-animation: fadeinB 1.6s;-moz-animation: fadeinB 1.6s;-ms-animation: fadeinB 1.6s;animation: fadeinB 1.6s;
+}
+.page2.active  .video-tit{
+	-webkit-animation: fadeinB 1.6s;-moz-animation: fadeinB 1.6s;-ms-animation: fadeinB 1.6s;animation: fadeinB 1.6s;
+}
+.page2 .fp-tableCell:before{
+	content:'';
+	display: block;
+	width: 100%;
+	height: 112px;
+}
+/* ******************************************第二页结束 ************************************************/
+/* ******************************************第三页开始 ************************************************/
+.page3{
+	position: relative;
+}
+.pg2-tit{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 40px;
+	color: #000;
+	margin-bottom: 36px;
+	padding-top: 46px;
+}
+.page3 .news{
+	width: 1000px;
+	height: 70%;
+	position: absolute;
+	left: 50%;
+	top: 148px;
+	margin-left: -500px;
+	overflow: hidden;
+}
+.page3 .news div{
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.page3 .news img{
+	transition: 1.5s all ease;
+}
+.page3 .news p{
+	width: 120px;
+	height: 48px;
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	line-height: 48px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	-webkit-text-shadow:1px 1px 1px #0c7bd0;
+	-moz-text-shadow:1px 1px 1px #0c7bd0;
+	-ms-text-shadow:1px 1px 1px #0c7bd0;
+	text-shadow:1px 1px 1px #0c7bd0;
+}
+.page3 .news .new0{
+	width: 664px;
+	min-height: 250px;
+	height: 60%;
+	margin-right: 26px;
+	margin-bottom: 26px;
+}
+
+.page3 .news .new1{
+	width: 310px;
+	min-height: 112px;
+	height: calc(30% - 13px);
+	height: 28%/ 0/9;
+	margin-bottom: 26px;
+	margin-bottom: 4% /0/9;
+}
+.page3 .news .new3{
+	width: 486px;
+	margin-right: 26px;
+}
+.page3 .news .new4{
+	width: 486px;
+}
+.page3 .news .new-bg{
+	width: 100%;
+	height: 100%;	
+}
+.page3 .news img{
+	width: 100%;
+	height: 100%;
+}
+
+/* 左侧淡入 */
+.active .news .new0 {
+	-webkit-animation: fadeinL 1.6s;-moz-animation: fadeinL 1.6s;-ms-animation: fadeinL 1.6s;animation: fadeinL 1.6s;
+}
+.active .news .new1 {
+	-webkit-animation: fadeinR 1.6s;-moz-animation: fadeinR 1.6s;-ms-animation: fadeinR 1.6s;animation: fadeinR 1.6s;
+}
+.active .news .new2 {
+	-webkit-animation: fadeinR 1.6s;-moz-animation: fadeinR 1.6s;-ms-animation: fadeinR 1.6s;animation: fadeinR 1.6s;
+}
+.active .news .new3 {
+	-webkit-animation: fadeinL 1.6s;-moz-animation: fadeinL 1.6s;-ms-animation: fadeinL 1.6s;animation: fadeinL 1.6s;
+}
+.active .news .new4 {
+	-webkit-animation: fadeinR 1.6s;-moz-animation: fadeinR 1.6s;-ms-animation: fadeinR 1.6s;animation: fadeinR 1.6s;
+}
